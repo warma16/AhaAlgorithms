@@ -4,8 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^18.6.4",
     "nodemon": "^2.0.19",
     "ts-node": "^10.9.1",
     "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "test": "ts-node test/index.ts"
   }
 }
